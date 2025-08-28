@@ -465,7 +465,7 @@ elif page == "🧫 Ensayos & Resultados":
         value = c3.number_input("Valor", value=0.0)
         unit = c4.text_input("Unidad", placeholder="mg/kg, %")
         c5,c6 = st.columns(2)
-        unc = c5.number_input("Incertidumbre (opcional)", min_value=0.0, value=0.0, format="%.3f")
+        unc = c5.text_input("Incertidumbre (opcional)")
         notes = c6.text_input("Notas")
         submit_r = st.form_submit_button("➕ Añadir resultado")
     if submit_r and analyte and tid_r:
