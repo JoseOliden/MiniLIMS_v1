@@ -1,7 +1,3 @@
-sqlite3
-json
-datetime 
-dateutil
-typing 
-pandas
 streamlit
+pandas
+python-dateutil
